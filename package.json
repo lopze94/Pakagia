@@ -13,10 +13,10 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "backend": "node ./backend/bin/www",
-    "backend-reload": "nodemon ./backend/bin/www",
-    "backend-debug-reload": "DEBUG=pakaya:* nodemon ./backend/bin/www",
-    "frontend": "react-scripts start",
+    "server": "node ./backend/bin/www",
+    "server-reload": "nodemon ./backend/bin/www",
+    "server-debug-reload": "DEBUG=pakaya:* nodemon ./backend/bin/www",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
